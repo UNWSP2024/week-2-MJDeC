@@ -1,16 +1,17 @@
-
+#Micah DeCaro, 9/12/24, Average Age
+#Progarm that asks for ages of five friends and computes the average.
 def average_age():
     # Get User Input
-age1=float(input('Enter your age:'))
-age2=float(input('Enter your age:'))
-age3=float(input('Enter your age:'))
-age4=float(input('Enter your age:'))
-age5=float(input('Enter your age:'))
+age1=float(input('Enter your age, Friend One: '))
+age2=float(input('Enter your age, Friend Two: '))
+age3=float(input('Enter your age, Friend Three: '))
+age4=float(input('Enter your age, Friend Four: '))
+age5=float(input('Enter your age, Friend Five: '))
             
     # Sum ages
-average=(age1+age2+age3+age4+age5)
+sum=(age1+age2+age3+age4+age5)
     # Average the ages
-final_average=average/5.0
+final_average=sum/5.0
 
     # Print the results
 print(final_average)
