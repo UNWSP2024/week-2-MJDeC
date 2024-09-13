@@ -24,7 +24,3 @@ def calculate_total_purchase():
     print('Therefore, your total cost is $', total)
     
 calculate_total_purchase()
-
-
-
-calculate_total_purchase()
