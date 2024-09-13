@@ -10,7 +10,8 @@ def temp_conversion(celsius):
     fahrenheit = 0.0
     ######################
     # WRITE YOUR CODE HERE
-ask_temp=float(input("What temperature is it in degrees Fahrenheit?"))
+print("What temperature is it in degrees Fahrenheit?")
+ask_temp=float(input())
 temp_step1=ask_temp*9/5
 temp_step2=temp_step1+32
     ######################    
