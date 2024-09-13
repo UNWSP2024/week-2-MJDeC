@@ -1,5 +1,5 @@
 #Micah DeCaro, 9/12/24, Average Age
-#Progarm that asks for ages of five friends and computes the average.
+#Program that asks for ages of five friends and computes the average.
 def average_age():
     # Get User Input
 age1=float(input('Enter your age, Friend One: '))
