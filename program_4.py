@@ -1,3 +1,4 @@
+#Micah DeCaro, 9/13/24, Temp Conversion
 # Look at line 17 first.
 # This program introduces a couple new concepts,
 # we'll be covering those in the weeks ahead
@@ -10,11 +11,7 @@ def temp_conversion(celsius):
     fahrenheit = 0.0
     ######################
     # WRITE YOUR CODE HERE
-print("What temperature is it in degrees Celsius?")
-ask_temp=float(input())
-temp_step1=ask_temp*9/5
-temp_step2=temp_step1+32
-print('The temperature in Fahrenheit is ',temp_step2)
+    fahrenheit=celsius*9/5+32
     ######################    
 
 
