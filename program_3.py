@@ -20,7 +20,7 @@ def calculate_total_purchase():
     sales_tax=subtotal*.07
     total=subtotal+sales_tax
     print('Your subtotal is $', subtotal)
-    print('The sales tax is $', sales_tax)
-    print('Therefore, your total cost is $', total)
+    print('The sales tax is $', format(sales_tax, '.2f'))
+    print('Therefore, your total cost is $', format(total, '.2f'))
     
 calculate_total_purchase()
